@@ -1,8 +1,8 @@
 from selenium import webdriver
-import unittest as ut
+import unittest
 
 # setup and tear down functions in parent class to keep code dry
-class SiteLayoutMasterTest(ut.TestCase):
+class SiteLayoutMasterTest(unittest.TestCase):
     def setUp(self):
         self.browser = webdriver.Firefox()
         self.browser.implicitly_wait(2)
