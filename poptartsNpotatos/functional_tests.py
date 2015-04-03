@@ -13,9 +13,9 @@ class SiteLayoutMasterTest(unittest.TestCase):
     """
     TESTS COVERING GENERAL SITE FUNCTIONALITY
     """
-    def test_basic_site_layout_present(self): #
+    def test_basic_site_layout_present(self):
         # blog title should be shown for all pages
-        self.assertIn('Potatos-n-Poptarts', browser.title)
+        self.assertIn('Poptarts-n-Potatos', browser.title)
         # pages should display the blog logo
         self.assertIn('a img #logo', browser.body)
         # logo should link to the home page

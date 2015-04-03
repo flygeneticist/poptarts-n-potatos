@@ -1,5 +1,5 @@
 """
-Django settings for potatosNpoptarts project.
+Django settings for poptartsNpotatos project.
 
 For more information on this file, see
 https://docs.djangoproject.com/en/1.7/topics/settings/
@@ -48,9 +48,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'potatosNpoptarts.urls'
+ROOT_URLCONF = 'poptartsNpotatos.urls'
 
-WSGI_APPLICATION = 'potatosNpoptarts.wsgi.application'
+WSGI_APPLICATION = 'poptartsNpotatos.wsgi.application'
 
 
 # Database
